@@ -1,0 +1,12 @@
+! Title: dgrebb.com
+! Description: Blocks Plausible Analytics
+! Expires: 2 days
+
+! dgrebb.com
+||p.dgrebb.com^$third-party,domain=~p.dgrebb.com
+||p.dgrebb.com^$third-party
+||p.dgrebb.com/js/script.outbound-links.js$script,1p
+||p.dgrebb.com/api/event$xhr,1p
+dgrebb.com p.dgrebb.com * block
+www.dgrebb.com p.dgrebb.com * block
+stg.dgrebb.com p.dgrebb.com * block
